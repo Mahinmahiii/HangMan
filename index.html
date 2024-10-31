@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnagMan</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+
+
+        <div class="sucessful" id="sucess">
+            <h2>Congratulations! You Won!</h2>
+            <img src="./images/victory.gif" alt="Winning GIF" />
+            <button onclick="next()">Next</button>
+        </div>
+
+
+        <div class="sucessful  failiur" id="fail">
+            <h2>You Lost!</h2>
+            <img src="./images/lost.gif" alt="Lost GIF" />
+            <button onclick="next()">TryAgain</button>
+        </div>
+    <div class="caption">
+    <h1>HangMan</h1>
+</div>
+
+<div class="hangman-box">
+    <img src="./images/hangman-0.svg" alt="">
+</div>
+
+<div class="gueses">
+    <div class="underscore" id="answer">
+
+    </div>
+
+    <h4 class="hint-text"> 
+        Question:
+    <b id="qn">Lorem ipsum dolor sit amet.</b>
+</h4>
+    <h4 class="hint-text"> 
+        Hint:
+    <b id="hi">Lorem ipsum dolor sit amet.</b>
+</h4>
+<h4 class="guesses-text">
+    Incorrect guesses
+    <b id="wrong">0/6</b>
+</h4>
+
+</div>
+
+
+</div>
+    <div class="container"> 
+        <div class="section1">
+        </div>
+    </div>
+
+    <script src="./hngman.js">
+        
+    </script>
+</body>
+</html>

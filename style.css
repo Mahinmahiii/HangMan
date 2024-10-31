@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:white;
+    overflow-x: hidden;
+}
+.container{
+    position: absolute;
+   margin-left: 30%;
+    margin-top: 10%;
+}
+ .caption h1{
+    color:black;
+    position: relative;
+    margin: 60px;
+}
+.gueses{
+    position: relative;
+    top: 120px;
+    left: 900px;
+    
+}
+.gueses input{
+    color: black;
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px dashed black;
+    border-bottom-width:thick;
+}
+
+.section1 .btn{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    color:black;
+    background-color: transparent;
+    border: 2px solid black;
+    box-shadow: 6px 0px black;
+}
+.gamecontainer{
+    color: white;
+}
+
+.hangman-box{
+    position: relative;
+    left: 40%;
+    height: 300px;
+}
+.word-display{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.word-display .letter{
+    width: 28px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid black;
+    font-weight: 600;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.gueses .hint-text{
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+    right:30%;
+    margin: 1%;
+    top: -60px;
+
+}
+.gueses .guesses-text{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: 10%;
+
+}
+
+.word-display  .guesed{
+    border-color: transparent;
+}
+.underscore {
+    position: relative;
+    top: -40px;
+    right: 40px;
+    display: inline-block;
+    margin: 5px;
+    font-size: 65px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+.sucessful{
+    display: none;
+    background-color:rgb(220, 219, 219);
+    position: absolute;
+    top: 10%;
+    left: 38%;
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.sucessful img ,h2{
+    position: absolute;
+    top: 20%;
+    left: 40px;
+}
+
+.sucessful h2{
+    position: absolute;
+    top: 15%;
+}
+
+.sucessful  button{
+    position: relative;
+    top: 45%;
+    left: 1%;
+    width: 80px;
+    color:white;
+    background-color: black;
+
+}
+
+.failiur img{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    height: 200px;
+}
