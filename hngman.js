@@ -136,7 +136,7 @@ let questions = [
       Question: "This big cat is known for its speed and is the fastest land animal.",
       Hint: "Often spotted on the African savanna.",
       Answer: "Cheetah"
-}
+},
 
 {
     Question: "This popular Italian dish is often topped with cheese, tomato, and various toppings.",
